@@ -11,6 +11,7 @@ namespace Plumsail.DataSource.FunctionApp
 {
     public class Startup : FunctionsStartup
     {
+        // Configure
         public override void Configure(IFunctionsHostBuilder builder)
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
